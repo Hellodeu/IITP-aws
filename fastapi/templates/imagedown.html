@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <img src="{{url_for('staticoriginal', path=img_original)}}" style="width: 599px; height: 599px"/>
+    <img src="{{url_for('static', path=img)}}" style="width: 599px; height: 599px"/>
+    {% if check == 'Abnormal': %}
+        <h1 style="color:red">{{check}}</h1>
+    {%else:%}
+        <h1 style="color:blue">{{check}}</h1>
+    {%endif%}    
+</body>
+<script>
+      var run = setInterval(run,3000);
+      function run() {
+        location.href = "http://127.0.0.1:8000/imagedown";
+            }      
+</script>
+</html>
