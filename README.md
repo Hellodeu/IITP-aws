@@ -8,4 +8,4 @@
 ![IITP 썸네일](https://user-images.githubusercontent.com/91243902/212207549-842745d7-d17c-4a3c-9d83-079677ee1c51.png)
 
 사용방법:
-1. 다운 받고 demo.py 실행
+다운 받고 demo.py 실행
